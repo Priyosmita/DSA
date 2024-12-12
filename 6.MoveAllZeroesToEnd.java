@@ -17,7 +17,7 @@ Explanation: No change in array as there are all 0s.*/
 class Solution {
     void pushZerosToEnd(int[] arr) {
         // code here
-        // separate arrays and then merge. Complexity O(N)
+        // separate arrays and then merge. Time Complexity O(N), Space Complexity O(N)
         int[] integers= new int[arr.length];
         int z=0,i=0;
         // seggregating
