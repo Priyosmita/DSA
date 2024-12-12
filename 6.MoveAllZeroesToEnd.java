@@ -17,7 +17,7 @@ Explanation: No change in array as there are all 0s.*/
 class Solution {
     void pushZerosToEnd(int[] arr) {
         // code here
-        // separate arrays and then merge. Time Complexity O(N), Space Complexity O(N)
+        // separate arrays and then merge. Time Complexity O(N), Space Complexity O(N), time taken: 1.33
         int[] integers= new int[arr.length];
         int z=0,i=0;
         // seggregating
@@ -44,6 +44,23 @@ class Solution {
         {
             arr[k]= 0;
             k++;
+        }
+
+        // Approach by GFG, time taken is a bit more (1.34) but doesn't use any extra array space
+        // if element is non zero then increment count, and at the end of the iteration run a loop to fill the rest of the array with 0s
+        int count= 0, i=0;
+        for(i=0;i<arr.length;i++)
+        {
+            if(arr[i]>0)
+            {
+                arr[count]= arr[i];
+                count++;
+            }
+        }
+        while(count<i)
+        {
+            arr[count]=0;
+            count++;
         }
     }
 }
