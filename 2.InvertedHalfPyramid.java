@@ -14,15 +14,18 @@ Output:
 * *  
 *     */
 
-class Solution {
-
-    void printTriangle(int n) {
-        // code here
-        // accessing rows
-        for (int i=0;i<n;i++)
+import java.util.*;
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Enter the height: ");
+        int h = sc.nextInt();
+        for(int i=0;i<h;i++)
         {
-            for (int j=1;j<n-i+1;j++)
-                System.out.print("* ");
+            for(int j=h-i;j>0;j--)
+            {
+                System.out.print("*");
+            }
             System.out.println();
         }
     }
