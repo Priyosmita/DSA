@@ -7,6 +7,7 @@ Input: Character
 Output: 1
 Explaination: For java it would be 2 bytes.
 
+
 Example 2:
 Input: Integer
 Output: 4
