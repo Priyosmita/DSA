@@ -8,8 +8,6 @@ Output:
 * 
 
 
-
-
 Example 2:
 Input: 3
 Output:
