@@ -12,6 +12,8 @@ Input: arr[] = [10, 10, 10]
 Output: -1
 Explanation: The largest element of the array is 10 and the second largest element does not exist.*/
 
+
+
 class Solution {
     public int getSecondLargest(int[] arr) {
         // Code Here
