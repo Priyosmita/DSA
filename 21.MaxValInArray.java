@@ -1,4 +1,4 @@
-// Practicing from Kunal Kushwal=ha's videos
+// Practicing from Kunal Kushwaha's videos
 
  import java.util.*;
  
