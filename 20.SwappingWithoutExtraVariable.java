@@ -36,5 +36,8 @@
         list.set(index1, list.get(index1)^list.get(index2));
 
         // using addition substraction
+        list.set(index1, list.get(index1)+list.get(index2));
+        list.set(index2, list.get(index1)-list.get(index2));
+        list.set(index1, list.get(index1)-list.get(index2));
     }
  }
