@@ -18,6 +18,7 @@
     }
     
     public static int max(ArrayList <Integer> list) {
+        if (list.size()==0) return -999;
         int m= list.get(0);
         for(int i=0; i<list.size();i++) {
             m= m<list.get(i)? m= list.get(i):m;
@@ -28,3 +29,4 @@
  }
 
 // note to self: Can also be done if a certain range is given, then simply pass the range to the max funtion and iterate only within the range
+// also account for edge cases like if array is empty
